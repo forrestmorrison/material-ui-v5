@@ -1,9 +1,10 @@
 import './App.css';
+import TourCard from './components/TourCard';
 
 function App() {
   return (
     <div className="App">
-      <h1>Material UI</h1>
+      <TourCard />
     </div>
   );
 }
