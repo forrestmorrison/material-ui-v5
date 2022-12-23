@@ -33,7 +33,7 @@ const TourCard = () => {
         <ThemeProvider theme={theme}>
             <Paper elevation={3}>
                 <img 
-                    src="https://www.niagarafallsstatepark.com/~/media/parks/niagara-falls/homepage/niagara-falls-mist-880x592.jpg" 
+                    src="https://tcproduction.blob.core.windows.net/media/%7B240f8b72-1159-4fd3-a150-0a837f50ba4a%7D.2573758641_297d6d19fa_o.jpg" 
                     alt=""
                     className="img"
                 />
