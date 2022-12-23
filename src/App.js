@@ -8,12 +8,10 @@ function App() {
     <div className="App">
       <Container>
         <Grid container spacing={2}>
-          <Grid item xs={3}>
-            <TourCard />
-          </Grid>
-          <Grid item xs={3}>
-            <TourCard />
-          </Grid>
+          <TourCard />
+          <TourCard />
+          <TourCard />
+          <TourCard />
         </Grid>
       </Container>
     </div>
