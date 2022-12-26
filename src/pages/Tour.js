@@ -1,6 +1,8 @@
-import { Box, Typography } from "@mui/material"
+import { BottomNavigation, Box, Paper, Typography } from "@mui/material"
 import Container from "@mui/material/Container"
 
+import BasicModal from "../components/Modal"
+import ControlledAccordions from "../components/Accordion"
 import QuiltedImageList from "../components/ImageCollage"
 
 const Tour = () => {
@@ -28,11 +30,17 @@ const Tour = () => {
                 optio, eaque rerum! Provident similique accusantium nemo autem.
             </Typography>
         </Box>
-        <Box>
-            <Typography variant="h6" component="h4" marginTop={3}>
+        <Box marginBottom={10}>
+            <Typography variant="h6" component="h4" marginTop={3} marginBottom={2}>
                 Frequently Asked Questions
             </Typography>
+            <ControlledAccordions />
         </Box>
+        <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
+            <BottomNavigation>
+                <BasicModal />
+            </BottomNavigation>
+        </Paper>
     </Container>
   )
 }
