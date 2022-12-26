@@ -1,7 +1,8 @@
+import '../App.css';
+
 import { Container } from '@mui/system';
 import { Grid, Typography } from '@mui/material';
 
-import SearchAppBar from '../components/AppBar';
 import TourCard from '../components/TourCard';
 
 import cities from "../data.json"
@@ -9,7 +10,6 @@ import cities from "../data.json"
 const Home = () => {
   return (
     <div className="App">
-      <SearchAppBar />
       <Container sx={ { marginY: 5 } }>
         {cities.map((city) => (
           <>
